@@ -1,0 +1,4 @@
+bs4
+feedparser
+httpx
+python-telegram-bot
