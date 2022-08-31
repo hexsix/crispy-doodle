@@ -5,14 +5,12 @@ date: 2022/07/18
 description: 
 """
 
-import imp
 import json
 import getopt
 import logging
 import os
-import time
 import sys
-from typing import Any, Dict, List
+from typing import Any, Dict
 
 from rssparser import rssparser
 from telegram_api import Bot
