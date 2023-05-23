@@ -55,7 +55,7 @@ def arg_parse(argv):
 def rss_url_generator(artists: Dict[str, str]) -> Any:
     for key in artists:
         artist_name, artist_id = key, artists[key]
-        rss_url = f'https://rsshub.app/ncm/artist/{artist_id}'
+        rss_url = f'https://rsshub.app/163/music/artist/{artist_id}'
         yield artist_name, rss_url
 
 
