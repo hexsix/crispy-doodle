@@ -23,7 +23,7 @@ logger = logging.getLogger('main')
 
 
 def arg_parse(argv):
-    rss_url = 'https://rsshub.app/dlsite/new/maniax'
+    rss_url = 'https://rss.owo.nz/dlsite/new/maniax'
     token = ''
     chat_id = ''
     use_proxies = False
