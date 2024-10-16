@@ -60,7 +60,7 @@ def rss_url_generator(artists: Dict[str, str]) -> Any:
 
 
 def main(argv) -> None:
-    logger.info('============ App Start ============')
+    logger.info('============= App Start =============')
     token, chat_id, use_proxies, proxies, artists = arg_parse(argv)
     bot = Bot(
         token=token,
@@ -77,7 +77,7 @@ def main(argv) -> None:
         )
         for item in rp.items:
             bot.send(item)
-    logger.info('============ App End ============')
+    logger.info('============= App End =============')
 
 
 if __name__ == '__main__':
